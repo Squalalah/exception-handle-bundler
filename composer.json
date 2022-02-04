@@ -1,5 +1,5 @@
 {
-    "name": "amiltone/exception-handler-bundle",
+    "name": "amontreuil/exception-handler-bundle",
     "type": "symfony-bundle",
     "license": "proprietary",
     "description": "An exception list to use for Amiltone's projects",
