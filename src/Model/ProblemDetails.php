@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Model;
+namespace Amontreuil\ExceptionModel;
 
-use App\Exception\ApiException;
+use Amontreuil\ExceptionBundle\ApiException;
 use JsonSerializable;
 
 class ProblemDetails implements JsonSerializable

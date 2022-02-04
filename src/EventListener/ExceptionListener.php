@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\EventListener;
+namespace Amontreuil\EventListener;
 
-use App\Exception\ApiException;
-use App\Factory\ApiExceptionFactory;
+use Amontreuil\ExceptionBundle\ApiException;
+use Amontreuil\ExceptionFactory\ApiExceptionFactory;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 
