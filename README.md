@@ -1,15 +1,14 @@
-# Récupérer les exception
+### Installation
 
 
-## 1 - Copier les dossiers EventListener/Exception/Factory/Model
+1. lancer "composer amontreuil/exception-handle-bundle" dans le repo
+2. ajouter ces lignes de code en bas de votre fichier config/services.yaml
 
-## 2 - Coller dans votre dossier /SRC
-
-## 3 - Ajouter ceci à la fin de votre fichier config/services.yaml
-
-
-```abc
+```mermaid
 App\EventListener\ExceptionListener:
         tags:
             - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
 ```
+
+
+Enjoy !
