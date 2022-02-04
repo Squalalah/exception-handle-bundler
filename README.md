@@ -1,6 +1,6 @@
 ### Installation
 
-1. lancer "composer amontreuil/exception-handle-bundle" dans le repo
+1. lancer "composer amontreuil/exception-handler-bundle" dans le repo
 2. ajouter ces lignes de code en bas de votre fichier config/services.yaml
 
 ```mermaid
