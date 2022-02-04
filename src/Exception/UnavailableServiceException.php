@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Amontreuil\ExceptionBundle;
+namespace Amontreuil\exceptionhandlermodule\Exception;
 
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;

@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Amontreuil\ExceptionBundle;
-
-use Symfony\Component\HttpFoundation\Request;
+namespace Amontreuil\exceptionhandlermodule\Exception;
 use Throwable;
 
 class BadFormPostException extends ApiException

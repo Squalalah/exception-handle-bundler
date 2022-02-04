@@ -30,6 +30,6 @@
         "symfony/phpunit-bridge": ">=v5.0.0"
     },
     "autoload": {
-        "psr-4": { "Amontreuil\\exception-handler-module\\": "src/" }
+        "psr-4": { "Amontreuil\\exceptionhandlermodule\\": "src/" }
     }
 }

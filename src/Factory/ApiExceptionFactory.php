@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Amontreuil\ExceptionFactory;
+namespace Amontreuil\exceptionhandlermodule\Factory;
 
-use Amontreuil\ExceptionBundle\ApiException;
-use Amontreuil\ExceptionModel\ProblemDetails;
+use Amontreuil\exceptionhandlermodule\Exception\ApiException;
+use Amontreuil\exceptionhandlermodule\Model\ProblemDetails;
 
 class ApiExceptionFactory
 {
