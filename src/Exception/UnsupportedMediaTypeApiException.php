@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque le Content-Type de la requête ne convient pas aux exigences de l'API.
+ */
 class UnsupportedMediaTypeApiException extends ApiException
 {
     public function __construct(?string $contentType, string $request, Throwable $previous = null)

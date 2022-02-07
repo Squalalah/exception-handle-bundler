@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque le client n'est pas connecté à un service le demandant.
+ */
 class UnauthorizedRequestException extends ApiException
 {
     public function __construct(

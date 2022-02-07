@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque le client n'a pas les droits suffisants pour effectuer la requête.
+ */
 class ForbiddenRequestException extends ApiException
 {
     public function __construct(

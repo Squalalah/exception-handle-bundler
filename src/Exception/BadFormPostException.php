@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Amontreuil\exceptionhandlermodule\Exception;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque le mauvais format de formulaire a été envoyé par le client.
+ */
 class BadFormPostException extends ApiException
 {
     public function __construct(

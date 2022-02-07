@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque des champs sont absents ou incorrects.
+ */
 class BadRequestException extends ApiException
 {
     public function __construct(

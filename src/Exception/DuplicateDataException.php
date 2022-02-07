@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque une donnée déjà existante en base de donnée essaye d'être insérée.
+ */
 class DuplicateDataException extends ApiException
 {
     public function __construct(

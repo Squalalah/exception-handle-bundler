@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque le champ passé en argument n'existe pas en base de donnée.
+ */
 class NotFoundException extends ApiException
 {
     public function __construct(

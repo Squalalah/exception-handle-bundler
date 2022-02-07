@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque le service est en maintenance ou en défaut.
+ */
 class UnavailableServiceException extends ApiException
 {
     public function __construct(

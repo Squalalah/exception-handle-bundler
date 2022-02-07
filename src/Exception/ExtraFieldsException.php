@@ -7,6 +7,9 @@ namespace Amontreuil\exceptionhandlermodule\Exception;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 
+/**
+ * Génération d'une exception lorsque la requête comporte des champs supplémentaires qui ne sont pas autorisés.
+ */
 class ExtraFieldsException extends ApiException
 {
     public function __construct(
