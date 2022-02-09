@@ -78,4 +78,18 @@ class ApiException extends Exception
         return $this->instance;
     }
 
+    public function getData(): array
+    {
+        return [
+
+            'type' => $this->type,
+
+            'title' => $this->title,
+
+            'detail' => $this->detail,
+
+            'instance' => $this->instance,
+
+        ];
+    }
 }

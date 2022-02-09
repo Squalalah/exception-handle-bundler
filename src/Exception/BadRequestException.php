@@ -17,19 +17,14 @@ class BadRequestException extends ApiException
         string $request,
         Throwable $previous = null
     ) {
-        $text = '';
-        for ($i = 0; $i < count($missingVar); $i++) {
-            if ($i + 1 != count($missingVar)) {
-                $text .= $missingVar[$i] . ', ';
-            } else {
-                $text .= $missingVar[$i];
-            }
+        foreach($missingVar as $value) {
+            if($value === null) $value = 'MISSING';
         }
         parent::__construct(
             'about:blank',
-            "The required data [ " . $text . " ] is missing or incorrect.",
+            "The required data is missing or incorrect.",
             400,
-            "Please verify that you sent those values in the right format.",
+            "Please verify that you sent those values in the right format. [ " . http_build_query($missingVar, '', ', ') . " ]",
             $request,
             $previous
         );
