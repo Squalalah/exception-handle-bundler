@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Amontreuil\exceptionhandlermodule\EventListener;
+namespace Amontreuil\ExceptionHandlerBundle\EventListener;
 
-use Amontreuil\exceptionhandlermodule\Exception\ApiException;
+use Amontreuil\ExceptionHandlerBundle\Exception\ApiException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;

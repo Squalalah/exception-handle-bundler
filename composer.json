@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "license": "proprietary",
     "description": "An exception list to use for Amiltone's projects",
-    "version": "1.4.2",
+    "version": "1.5",
     "authors": [
         {
             "name": "Anthony Montreuil",
@@ -30,6 +30,6 @@
         "symfony/phpunit-bridge": ">=v5.0.0"
     },
     "autoload": {
-        "psr-4": { "Amontreuil\\exceptionhandlermodule\\": "src/" }
+        "psr-4": { "Amontreuil\\ExceptionHandlerBundle\\": "src/" }
     }
 }

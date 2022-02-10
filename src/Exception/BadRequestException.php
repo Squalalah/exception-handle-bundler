@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Amontreuil\exceptionhandlermodule\Exception;
+namespace Amontreuil\ExceptionHandlerBundle\Exception;
 
+use Amontreuil\ExceptionHandlerBundle\Exception\ApiException;
 use Symfony\Component\HttpFoundation\Request;
 use Throwable;
 

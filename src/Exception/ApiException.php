@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Amontreuil\exceptionhandlermodule\Exception;
+namespace Amontreuil\ExceptionHandlerBundle\Exception;
 
 use Exception;
 use Throwable;
