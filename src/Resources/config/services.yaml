@@ -1,4 +1,5 @@
 services:
     Amontreuil\ExceptionHandlerBundle\EventListener\ExceptionListener:
+        autowire: true
         tags:
             - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
