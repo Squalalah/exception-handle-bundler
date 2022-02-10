@@ -1,7 +1,6 @@
 
 ###> symfony/framework-bundle ###
 /.env
-/config
 /bin
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
