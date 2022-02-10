@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "license": "proprietary",
     "description": "An exception list to use for Amiltone's projects",
-    "version": "1.5",
+    "version": "1.6.1",
     "authors": [
         {
             "name": "Anthony Montreuil",
