@@ -20,7 +20,7 @@ class BadUuidException extends ApiException
         parent::__construct(
             'about:blank',
             "The given '" . $missingVar . "' seems to be invalid.",
-            400,
+            403,
             "Please verify that you sent a valid '" . $missingVar . "'.",
             $request,
             $previous

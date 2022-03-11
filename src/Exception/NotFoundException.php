@@ -20,7 +20,7 @@ class NotFoundException extends ApiException
         parent::__construct(
             'about:blank',
             "The given '" . $missingVar . "' does not exists in our database.",
-            404,
+            408,
             'Please verify that you sent the right value.',
             $request,
             $previous

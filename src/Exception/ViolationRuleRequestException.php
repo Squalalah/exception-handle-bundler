@@ -20,7 +20,7 @@ class ViolationRuleRequestException extends ApiException
         parent::__construct(
             'about:blank',
             "Violation of the rule",
-            400,
+            411,
             "The request cannot be executed for a violation of the rule. [ " . http_build_query($missingVar, '', ', ') . " ]",
             $request,
             $previous

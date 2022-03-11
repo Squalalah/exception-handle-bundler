@@ -28,7 +28,7 @@ class ExtraFieldsException extends ApiException
         parent::__construct(
             'about:blank',
             "The fields [ " . $text . " ] are not allowed.",
-            400,
+            406,
             "Please remove those fields for the request to proceed.",
             $request,
             $previous

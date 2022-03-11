@@ -23,7 +23,7 @@ class UnsupportedMediaTypeApiException extends ApiException
         parent::__construct(
             'about:blank',
             $text,
-            405,
+            410,
             "Please check the openApi specifications to use the right Content-Type.",
             $request,
             $previous
