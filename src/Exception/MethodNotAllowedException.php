@@ -13,6 +13,7 @@ use Throwable;
 class MethodNotAllowedException extends ApiException
 {
     public function __construct(
+        array $methodsAllowed,
         string $request,
         Throwable $previous = null
     ) {
@@ -20,7 +21,7 @@ class MethodNotAllowedException extends ApiException
             'about:blank',
             "This request method is not allowed on this route.",
             405,
-            'Please use an authorized method for your request.',
+            'Please use one of those authorized methods ['. implode("', '", $methodsAllowed) .']',
             $request,
             $previous
         );
