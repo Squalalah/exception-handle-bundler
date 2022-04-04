@@ -21,7 +21,7 @@ class MethodNotAllowedException extends ApiException
             'about:blank',
             "This request method is not allowed on this route.",
             405,
-            'Please use one of those authorized methods ['. implode("', '", $methodsAllowed) .']',
+            'Please use one of those authorized methods ['. implode(", ", $methodsAllowed) .']',
             $request,
             $previous
         );
