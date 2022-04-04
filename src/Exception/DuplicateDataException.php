@@ -19,7 +19,7 @@ class DuplicateDataException extends ApiException
         parent::__construct(
             'about:blank',
             "Data duplication attempt",
-            405,
+            454,
             "The data you try to insert already exists in our database and we do not allow duplicates.",
             $request,
             $previous

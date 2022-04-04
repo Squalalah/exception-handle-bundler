@@ -17,7 +17,7 @@ class BadFormPostException extends ApiException
         parent::__construct(
             'about:blank',
             "Wrong form format has been sent",
-            401,
+            452,
             "Please verify that you sent your form with a x-www-form-urlencoded format.",
             $request,
             $previous

@@ -19,7 +19,7 @@ class UnauthorizedRequestException extends ApiException
         parent::__construct(
             'about:blank',
             "Unauthorized access" ,
-            409,
+            401,
             "Please login with your credentials to perform this request.",
             $request,
             $previous

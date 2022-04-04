@@ -19,7 +19,7 @@ class ForbiddenRequestException extends ApiException
         parent::__construct(
             'about:blank',
             "Forbidden access",
-            407,
+            403,
             "You don't have the rights to perform this request, please contact your administrator.",
             $request,
             $previous

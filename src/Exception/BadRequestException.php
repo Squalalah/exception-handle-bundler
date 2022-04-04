@@ -24,7 +24,7 @@ class BadRequestException extends ApiException
         parent::__construct(
             'about:blank',
             "The required data is missing or incorrect.",
-            402,
+            400,
             "Please verify that you sent those values in the right format. [ " . http_build_query($missingVar, '', ', ') . " ]",
             $request,
             $previous
