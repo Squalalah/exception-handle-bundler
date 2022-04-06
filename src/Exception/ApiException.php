@@ -33,10 +33,10 @@ class ApiException extends Exception
 
     public function __construct(
         string $type = "about:blank",
-        string $title,
+        string $title = "about:blank",
         int $code = 0,
-        string $detail,
-        string $instance,
+        string $detail = "about:blank",
+        string $instance = "about:blank",
         Throwable $previous = null
     ) {
         $this->type = $type;
